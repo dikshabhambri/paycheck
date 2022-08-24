@@ -1,0 +1,28 @@
+item {
+  id: 1
+  name: 'IssueBank'
+}
+item {
+  id: 2
+  name: 'ReceiverName'
+}
+item {
+  id: 3
+  name: 'AcNo'
+}
+item {
+  id: 4
+  name: 'Amt'
+}
+item {
+  id: 5
+  name: 'ChqNo'
+}
+item {
+  id: 6
+  name: 'DateIss'
+}
+item {
+  id: 7
+  name: 'Sign'
+}
