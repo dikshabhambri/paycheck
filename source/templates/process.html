@@ -44,7 +44,17 @@
                 <div class="d-flex justify-content-center align-items-center h-75">
                     <form action="">
                         <h2>Upload your cheque here!</h2>
-                        <input type="file"/>
+                        <script>
+                          var loadFile = function(event) {
+                            var image = document.getElementById('rawImage');
+                            image.src = URL.createObjectURL(event.target.files[0]);
+                          };
+                          </script>
+                          <input id="chequeImage" type="file" onchange="loadFile(event)"><br>
+                          <img id="rawImage" width="800">
+                          <div class="breadcrumb"></div>
+                          <input type="submit">
+                        </script>
                     </form>
                 </div>
             </div>
