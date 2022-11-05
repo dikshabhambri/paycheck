@@ -14,7 +14,7 @@ def about():
 @app.route('/solution')
 def solution():
     return render_template('solution.html')
-
+ 
 @app.route('/contact')
 def contact():
     return render_template('contact.html')
