@@ -59,7 +59,7 @@
     margin: 30px 0 45px 0;
     line-height: 29px;
 }
-.btn{
+.btn2{
     padding: 10px 25px;
     border: 2px solid #f39c12;
     border-radius: 5px;
@@ -96,19 +96,19 @@ body{
   align-items: center;
   justify-content: center;
 }
-.container{
+.container2{
   width: 85%;
   background: #fff;
   border-radius: 6px;
   padding: 20px 60px 30px 40px;
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
-.container .content{
+.container2 .content{
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.container .content .left-side{
+.container2 .content .left-side{
   width: 25%;
   height: 100%;
   display: flex;
@@ -128,29 +128,29 @@ body{
   transform: translateY(-50%);
   background: #afafb6;
 }
-.content .left-side .details{
+.content2 .left-side .details{
   margin: 14px;
   text-align: center;
 }
-.content .left-side .details i{
+.content2 .left-side .details i{
   font-size: 30px;
   color: #3e2093;
   margin-bottom: 10px;
 }
-.content .left-side .details .topic{
+.content2 .left-side .details .topic{
   font-size: 18px;
   font-weight: 500;
 }
-.content .left-side .details .text-one,
-.content .left-side .details .text-two{
+.content2 .left-side .details .text-one,
+.content2 .left-side .details .text-two{
   font-size: 14px;
   color: #afafb6;
 }
-.container .content .right-side{
+.container2 .content2 .right-side{
   width: 75%;
   margin-left: 75px;
 }
-.content .right-side .topic-text{
+.content2 .right-side .topic-text{
   font-size: 23px;
   font-weight: 600;
   color: #3e2093;
@@ -198,34 +198,34 @@ body{
 }
 
 @media (max-width: 950px) {
-  .container{
+  .container2{
     width: 90%;
     padding: 30px 40px 40px 35px ;
   }
-  .container .content .right-side{
+  .container2 .content2 .right-side{
    width: 75%;
    margin-left: 55px;
 }
 }
 @media (max-width: 820px) {
-  .container{
+  .container2{
     margin: 40px 0;
     height: 100%;
   }
-  .container .content{
+  .container2 .content2{
     flex-direction: column-reverse;
   }
- .container .content .left-side{
+ .container2 .content2 .left-side{
    width: 100%;
    flex-direction: row;
    margin-top: 40px;
    justify-content: center;
    flex-wrap: wrap;
  }
- .container .content .left-side::before{
+ .container2 .content2 .left-side::before{
    display: none;
  }
- .container .content .right-side{
+ .container2 .content2 .right-side{
    width: 100%;
    margin-left: 0;
  }
