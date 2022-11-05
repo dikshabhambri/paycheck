@@ -19,4 +19,8 @@ def solution():
 def contact():
     return render_template('contact.html')
 
+@app.route('/process')
+def process():
+    return render_template('process.html')
+
 app.run(debug=True)

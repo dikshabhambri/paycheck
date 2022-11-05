@@ -1,7 +1,13 @@
 .hero{
-    background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url('../logo/sdgr.png');
+    background: linear-gradient(rgba(255, 255, 255, 0.842), rgba(255, 255, 255, 0.692)), url('../logo/sdgr.png');
 }
 
-.mask{
-    color: black !important;
+.btn{
+    border: 1px solid orange;
+    background-color: inherit;
+    color: black;
+}
+
+.btn:hover{
+    background-color: orangered;
 }
