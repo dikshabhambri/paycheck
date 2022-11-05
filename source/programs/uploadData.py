@@ -1,0 +1,4 @@
+from azure.storage.blob import BlobServiceClient
+
+connection_string = "DefaultEndpointsProtocol=https;AccountName=paycheckstorage;AccountKey=DIooFI0L70rruvy07RmhH9lOPLKDsIcRBJGegEXHJFwAJqI6egQfHtYaqQLy6vqmhdsyURJh4ziR+AStosql+w==;EndpointSuffix=core.windows.net"
+service = BlobServiceClient.from_connection_string(conn_str=connection_string)
